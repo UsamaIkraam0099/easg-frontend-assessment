@@ -1,0 +1,17 @@
+{
+    "sign_up":"sign up",
+    "sign_in":"sign in",
+    "name":"Name",
+    "amail_address":"Email address",
+    "password":"Password",
+    "already_have_an_account":"Already have an account",
+    "dont_have_an_account":"Don't have an account",
+    "error_msg":"Something went wrong, please try again later",
+    "welocme_to_the_application":"Welocme to the application",
+    "press_me_to_logout":"Press me to logout",
+    "auth_placeholder":{
+        "name":"Alexindra Smith",
+        "email":"alexindra.smith@gmail.com",
+        "password":"********"
+    }
+}
