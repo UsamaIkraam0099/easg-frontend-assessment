@@ -1,0 +1,25 @@
+ /* colors */
+$white:#ffffff;
+$text-dark:#17202a;
+$text-gray:#99a3a4;
+$error-color:#FF0000;
+$primary-color:#e67e22;
+$background-color:#f8f8f8;
+$placeholder-color:#cacfd2;
+$primary-border-color:#f39c12;
+$input-focus-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075),
+0 0 8px rgba(243, 156, 18, 0.6);
+$font-stack:-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+
+ /* sizing */
+$xlg: 2.369rem;
+$lg: 1.777rem;
+$md: 1.333rem;
+$sm: 1rem;
+$xsm: 0.75rem;
+
+ /* misc */
+ $radius-sm: 5px;
+ $radius-lg: 15px;
+ $transition: all 160ms cubic-bezier(0.99, 0.03, 0.68, 0.93);

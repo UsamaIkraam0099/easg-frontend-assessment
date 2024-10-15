@@ -1,8 +1,9 @@
+import "./styles/_main.scss";
+
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import reportWebVitals from "./reportWebVitals";
 import "react-toastify/dist/ReactToastify.css";
+import reportWebVitals from "./reportWebVitals";
 
 // others
 import App from "./App";
