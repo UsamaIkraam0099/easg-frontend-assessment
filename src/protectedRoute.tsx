@@ -13,11 +13,10 @@ const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
   const { getAccessToken }: any = useAuthState({ type: "" });
   const accessToken = getAccessToken();
 
-  console.log({ accessToken });
-
   if (!accessToken) {
     return <Navigate to="/" replace />;
   }
+
   return children;
 };
 

@@ -16,7 +16,7 @@ function App() {
     // </ChakraProvider>
     <div>
       <Routes>
-        <Route path="/" element={<TodoList />} />
+        {/* <Route path="/" element={<TodoList />} /> */}
         <Route path="/" element={<SignUp />} />
         <Route path="/signIn" element={<SignIn />} />
         <Route
