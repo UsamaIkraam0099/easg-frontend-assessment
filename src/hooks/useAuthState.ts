@@ -78,7 +78,14 @@ const useAuthState = ({ type }: AuthStateProps) => {
     return JSON.parse(accessToken);
   };
 
-  return { errors, disabled, register, onSubmit, handleSubmit, getAccessToken };
+  return {
+    errors,
+    disabled,
+    register,
+    onSubmit,
+    handleSubmit,
+    getAccessToken,
+  };
 };
 
 export default useAuthState;

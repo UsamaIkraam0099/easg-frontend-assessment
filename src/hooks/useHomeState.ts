@@ -14,6 +14,7 @@ const useHomeState = () => {
   const navigate = useNavigate();
   const [delay, setDelay] = useState(false);
   const [user, setUser] = useState<UserType>();
+  const [position, setPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const user: any = localStorage.getItem(STORAGE_KEYS["user_details"]);
@@ -30,7 +31,7 @@ const useHomeState = () => {
     }, 3000);
   };
 
-  return { user, delay, handleLogout };
+  return { user, delay, position, setPosition, handleLogout };
 };
 
 export default useHomeState;
