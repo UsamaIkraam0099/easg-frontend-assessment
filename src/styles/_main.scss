@@ -54,6 +54,8 @@ body {
       border-color: $primary-border-color;
       border-radius: 100px;
       font-weight: 700;
+      --bs-btn-disabled-bg:#f39c12;
+      --bs-btn-disabled-border-color:#f39c12
     }
   
     button:hover {

@@ -18,7 +18,12 @@ const index = ({ props, errors, disabled }: InputProps) => {
   return (
     <div className="form-group mt-4">
       <label htmlFor="name">{props.label}</label>
-      <input {...props} className="form-control" disabled={disabled} />
+      <input
+        {...props}
+        autoComplete="off"
+        disabled={disabled}
+        className="form-control"
+      />
 
       {errors[props.id] && (
         <label className="error-label">{error_messages[props.id]}</label>
