@@ -6,12 +6,11 @@ import { useHomeState } from "../../hooks";
 function Home() {
   // hoooks initialization
   const { user, delay, position, setPosition, handleLogout } = useHomeState();
-  console.log("xxx");
   return (
     <div
-      onPointerMove={({ clientX, clientY }) =>
-        setPosition({ x: clientX, y: clientY })
-      }
+      // onPointerMove={({ clientX, clientY }) =>
+      //   setPosition({ x: clientX, y: clientY })
+      // }
       className="flex-column d-flex align-items-center justify-content-center home-main"
     >
       <h1 className="title-lable">{en.welocme_to_the_application}</h1>
@@ -25,7 +24,7 @@ function Home() {
         )}
       </button>
 
-      <Pointer position={position} />
+      {/* <Pointer position={position} /> */}
     </div>
   );
 }
