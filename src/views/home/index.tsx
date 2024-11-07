@@ -1,7 +1,7 @@
 // others
 import { en } from "../../language";
-import { Pointer } from "../../components";
 import { useHomeState } from "../../hooks";
+import { Navbar, Pointer } from "../../components";
 
 function Home() {
   // hoooks initialization
@@ -13,6 +13,8 @@ function Home() {
       // }
       className="flex-column d-flex align-items-center justify-content-center home-main"
     >
+      <Navbar />
+
       <h1 className="title-lable">{en.welocme_to_the_application}</h1>
       <h2 className="name-lable">{user?.name}!</h2>
 

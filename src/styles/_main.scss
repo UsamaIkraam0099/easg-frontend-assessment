@@ -96,7 +96,40 @@ body {
     color: $error-color !important;
     font-size: 12px !important;
   }
-  
+
+  .navbar {
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    padding: $xsm $md $xsm $md;
+    background-color: transparent !important;
+    -webkit-box-shadow:0px 2px 12px $placeholder-color;
+    -moz-box-shadow:0px 2px 12px $placeholder-color;
+    box-shadow:0px 2px 12px $placeholder-color;
+
+    a {
+      font-weight: bold !important;
+    }
+
+    li {
+      a{
+        color: $text-dark !important;
+      }
+
+     a:hover, a:focus {
+        color: $primary-color !important;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+
+  .navbar-brand, .navbar-brand:hover {
+    color: $primary-color;
+  }
+
   .home-main {
     height: 100vh;
   }
